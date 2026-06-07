@@ -15,7 +15,7 @@ import foodvilla from "./foodvilla.jpg";
 import { Context } from "../../ContextAPI";
 import { useContext, useEffect } from "react";
 import { FormPage } from "../Form";
-import { delay, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 export function ProcessPage() {
   let { form, setForm, setIsNavOpen } = useContext(Context);

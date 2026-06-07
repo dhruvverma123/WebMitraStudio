@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 import { SyncLoader } from "react-spinners";
 import { toast } from "react-toastify";
 import { useState, useContext } from "react";
-import { Context } from "./../ContextAPI";
+import { Context } from "../ContextAPI";
 import "./Form.css";
 import CloseIcon from "@mui/icons-material/Close";
 
