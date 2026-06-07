@@ -1,0 +1,1886 @@
+.process {
+  min-height: 100vh;
+  display: flex;
+  padding: 30px 100px 20px 115px;
+  /* border: 1px solid black; */
+}
+
+.hero div h1 {
+  color: black;
+  font-weight: 800;
+  font-size: 64px;
+  /* border: 1px solid black; */
+  padding: 0px 40px;
+  text-align: center;
+}
+
+.hero div p {
+  color: black;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.hero div p span {
+  font-weight: 900;
+}
+
+.hero div div {
+  padding-left: 50px;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  /* border: 1px solid black; */
+  width: 100%;
+}
+
+.hero div img {
+  /* border: 1px solid black; */
+  margin-left: 80px;
+  object-fit: cover;
+  width: 120px;
+  height: 80px;
+  border-radius: 1rem;
+  margin-top: 20px;
+}
+
+.firstStep {
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.firstStep .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 55%;
+  padding: 70px;
+  /* border: 1px solid black; */
+}
+
+.firstStep .left h5 {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.firstStep .left h1 {
+  margin-top: 14px;
+  font-weight: 900;
+}
+
+.firstStep .left p {
+  margin-top: 40px;
+}
+
+.firstStep .right {
+  /* border: 1px solid black; */
+  width: 33rem;
+}
+
+.firstStep .right img {
+  width: 33rem;
+}
+
+.someStep {
+  margin-top: 30px;
+  display: flex;
+  /* border: 1px solid black; */
+  padding: 50px;
+}
+
+.someStep div {
+  /* border: 1px solid black; */
+  padding: 20px;
+}
+
+.someStep div span {
+  border-radius: 20rem;
+  background-color: #d7dde6;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.227);
+}
+
+.someStep div h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.someStep div p {
+  line-height: 1.7rem;
+}
+
+.secondStep {
+  /* border: 1px solid black; */
+  padding: 40px;
+  margin-top: 30px;
+}
+
+.secondStep div {
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+.secondStep div h5 {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.secondStep div .heading {
+  color: black;
+  font-weight: 800;
+  font-size: 45px;
+  /* border: 1px solid black; */
+  padding: 0px 300px;
+  text-align: center;
+  /* border: 1px solid black; */
+  margin-top: 15px;
+}
+
+.secondStep div .paragraph {
+  margin-top: 20px;
+  padding: 0px 300px;
+  /* border: 1px solid black; */
+}
+
+.secondStep .modelDiv {
+  /* border: 1px solid black; */
+  padding: 30px;
+  display: flex;
+}
+
+.secondStep .modelDiv .outerDiv {
+  margin-right: 5px;
+  display: flex;
+  /* border: 1px solid black; */
+  padding: 50px;
+}
+
+.secondStep .modelDiv .outerDiv .innerDiv1 {
+  padding-top: 15px;
+}
+
+.secondStep .modelDiv .outerDiv .innerDiv1 img {
+  width: 100%;
+}
+
+.secondStep .modelDiv .outerDiv .innerDiv2 {
+  text-align: start;
+  padding-left: 20px;
+}
+
+.secondStep .modelDiv .outerDiv .innerDiv2 h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.secondStep .modelDiv .outerDiv .innerDiv2 p {
+  font-size: 1rem;
+}
+
+.thirdStep {
+  /* border: 1px solid black; */
+  display: flex;
+  padding: 40px;
+}
+
+.thirdStep .leftTurn {
+  /* border: 1px solid black; */
+  width: 50rem;
+}
+
+.thirdStep .leftTurn img {
+  width: 100%;
+}
+
+.thirdStep .rightTurn {
+  /* border: 1px solid black; */
+  padding: 50px 50px 50px 80px;
+}
+
+.thirdStep .rightTurn h5 {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.thirdStep .rightTurn .heading {
+  color: black;
+  font-weight: 800;
+  font-size: 45px;
+  /* border: 1px solid black; */
+  padding: 0px 80px 0px 0px;
+  margin-top: 15px;
+}
+
+.thirdStep .rightTurn .paragraph {
+  margin-top: 30px;
+}
+
+.thirdStep .quantity {
+  margin-top: 40px;
+  padding: 20px 0px;
+  display: flex;
+  border-top: 1px solid black;
+  gap: 80px;
+}
+
+.thirdStep .quantity div h1 {
+  font-weight: 800;
+}
+
+.thirdStep .quantity div p {
+  font-weight: 600;
+}
+
+.thirdStep .rightTurn button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+.fourthStep {
+  /* border: 1px solid black; */
+  display: flex;
+  padding: 90px 50px 50px 50px;
+  margin-top: 50px;
+}
+
+.fourthStep .left {
+  /* border: 1px solid black; */
+  padding-top: 50px;
+}
+
+.fourthStep .left h5 {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.fourthStep .left h1 {
+  margin-top: 12px;
+  padding: 0px 100px 0px 0px;
+  font-weight: 800;
+}
+
+.fourthStep .left p {
+  margin-top: 30px;
+  line-height: 1.7rem;
+}
+
+.fourthStep .left .smile {
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+
+.fourthStep .right {
+  /* border: 1px solid black; */
+  width: 53rem;
+}
+
+.fourthStep .right img {
+  width: 100%;
+}
+
+.fifthStep {
+  /* border: 1px solid black; */
+  padding: 90px 50px 50px 50px;
+}
+
+.fifthStep .h5 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.fifthStep h1 {
+  text-align: center;
+  margin-top: 12px;
+  font-weight: 800;
+}
+
+.fifthStep .first1 {
+  /* border: 1px solid black; */
+  display: flex;
+  padding: 40px 0px 0px 0px;
+}
+
+.fifthStep .first1 .left {
+  /* border: 1px solid black; */
+  width: 43rem;
+}
+
+.fifthStep .first1 .left img {
+  width: 100%;
+}
+
+.fifthStep .first1 .right {
+  /* border: 1px solid black; */
+  padding: 90px 40px 40px 80px;
+}
+
+.fifthStep .first1 .right h5 {
+  font-weight: 800;
+  font-size: 0.99rem;
+  text-align: start;
+}
+
+.fifthStep .first1 .right div {
+  margin-top: 30px;
+}
+
+.fifthStep .first1 .right h4 {
+  font-weight: 800;
+}
+
+.fifthStep .first1 .right p {
+  padding: 0px 170px 0px 0px;
+}
+
+.fifthStep .second1 {
+  /* border: 1px solid black; */
+  display: flex;
+  padding: 40px 0px 0px 0px;
+}
+
+.fifthStep .second1 .left {
+  padding: 90px 40px 40px 80px;
+}
+
+.fifthStep .second1 .left h5 {
+  font-weight: 800;
+  font-size: 0.99rem;
+  text-align: start;
+}
+
+.fifthStep .second1 .left div {
+  margin-top: 30px;
+}
+
+.fifthStep .second1 .left h4 {
+  font-weight: 800;
+}
+
+.fifthStep .second1 .left p {
+  padding: 0px 100px 0px 0px;
+}
+
+.fifthStep .second1 .right {
+  /* border: 1px solid black; */
+  width: 43rem;
+}
+
+.fifthStep .second1 .right img {
+  width: 100%;
+}
+
+.fifthStep .loveourprocess {
+  padding: 50px;
+  /* border: 1px solid black; */
+  text-align: center;
+}
+
+.fifthStep h3 {
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.fifthStep .loveourprocess button {
+  margin-top: 50px;
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+/* sixthStep */
+.sixthStep {
+  /* border: 1px solid black; */
+  display: flex;
+}
+
+.sixthStep > .left {
+  padding: 50px;
+  /* border: 1px solid black; */
+}
+
+.sixthStep > .left h5 {
+  font-weight: 800;
+  font-size: 0.99rem;
+  text-align: start;
+}
+
+.sixthStep > .left h1 {
+  margin-top: 10px;
+  font-weight: 800;
+  padding: 0px 130px 0px 0px;
+}
+
+.sixthStep > .left .parah {
+  margin-top: 24px;
+  padding: 0px 230px 0px 0px;
+}
+
+.sixthStep .left .divider {
+  /* border: 1px solid black; */
+  /* padding: 30px; */
+  display: flex;
+  gap: 1.3rem;
+}
+
+.sixthStep .left .divider div {
+  /* border: 1px solid black; */
+  width: 40%;
+}
+
+.sixthStep .left .divider div h2 {
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.sixthStep .left .divider div span {
+  /* margin: 5px 0px; */
+  border: 1px solid rgba(0, 0, 0, 0.174);
+  padding: 3px 5px;
+  border-radius: 0.3rem;
+  background-color: rgba(0, 0, 0, 0.132);
+}
+
+.sixthStep .left .divider div span h5 {
+  display: inline-block;
+  font-size: 0.7rem;
+}
+
+.sixthStep .left .divider div .paraDiv {
+  line-height: 1.8rem;
+  margin-top: 1rem;
+}
+
+.sixthStep .left .divider div .minusDiv::before {
+  content: "– ";
+  color: #a874d2;
+}
+
+.sixthStep > .right {
+  /* border: 1px solid black; */
+  width: 54rem;
+}
+
+.sixthStep > .right img {
+  width: 100%;
+}
+
+.loveourprocess2 {
+  padding: 4rem;
+  /* border: 1px solid black; */
+}
+
+.loveourprocess2 div {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+.loveourprocess2 div h1 {
+  font-weight: 900;
+}
+
+.loveourprocess2 div p {
+  font-size: 1.1rem;
+  margin-top: 1.4rem;
+}
+
+.loveourprocess2 div button {
+  border: none;
+  background-color: #a874d2;
+  color: white;
+  width: 100%;
+  border-radius: 5px;
+  padding: 12px 20px;
+  margin-top: 1.3rem;
+  font-size: 1.09rem;
+}
+
+.bg-blur {
+  filter: blur(5px);
+  pointer-events: none;
+  padding: 30px 100px 20px 115px;
+}
+
+@media (max-width: 1080px) {
+  .process {
+    min-height: 100vh;
+    display: flex;
+    padding: 10px 30px 10px 30px;
+  }
+
+  .hero div h1 {
+    margin-top: 40px;
+    color: black;
+    font-weight: 800;
+    line-height: 3.5rem;
+    font-size: 55px;
+    /* border: 1px solid black; */
+    padding: 0px;
+    text-align: center;
+  }
+
+  .hero div p {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .hero div p span {
+    font-weight: 900;
+  }
+
+  .hero div div {
+    gap: 20px;
+    padding-left: 0px;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  .hero div img {
+    /* border: 1px solid black; */
+    margin-left: 35px;
+    object-fit: cover;
+    width: 110px;
+    height: 70px;
+    border-radius: 1rem;
+  }
+
+  .firstStep {
+    /* border: 1px solid black; */
+    display: flex;
+  }
+
+  .firstStep .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    padding: 40px;
+    /* border: 1px solid black; */
+  }
+
+  .firstStep .left h5 {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .firstStep .left h1 {
+    margin-top: 14px;
+    font-weight: 900;
+  }
+
+  .firstStep .left p {
+    margin-top: 40px;
+  }
+
+  .firstStep .right {
+    /* border: 1px solid black; */
+    width: 33rem;
+  }
+
+  .firstStep .right img {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .someStep {
+    margin-top: 30px;
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 30px;
+  }
+
+  .someStep div {
+    /* border: 1px solid black; */
+    padding: 20px;
+  }
+
+  .someStep div span {
+    border-radius: 20rem;
+    background-color: #d7dde6;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.227);
+  }
+
+  .someStep div h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .someStep div p {
+    line-height: 1.7rem;
+  }
+
+  .secondStep {
+    /* border: 1px solid black; */
+    padding: 40px;
+    margin-top: 30px;
+  }
+
+  .secondStep div {
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+  .secondStep div h5 {
+    /* border: 1px solid black; */
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .secondStep div .heading {
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+    /* border: 1px solid black; */
+    padding: 0px;
+    margin-top: 15px;
+  }
+
+  .secondStep div .paragraph {
+    margin-top: 20px;
+    padding: 0px;
+    /* border: 1px solid black; */
+  }
+
+  .secondStep .modelDiv {
+    /* border: 1px solid black; */
+    padding: 30px;
+    display: flex;
+  }
+
+  .secondStep .modelDiv .outerDiv {
+    margin-right: 20px;
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv1 {
+    padding-top: 15px;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv1 img {
+    width: 100%;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv2 {
+    text-align: start;
+    padding-left: 20px;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv2 h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv2 p {
+    font-size: 0.9rem;
+  }
+
+  .thirdStep {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 40px;
+  }
+
+  .thirdStep .leftTurn {
+    /* border: 1px solid black; */
+    width: 50rem;
+  }
+
+  .thirdStep .leftTurn img {
+    margin-top: 4rem;
+    width: 100%;
+  }
+
+  .thirdStep .rightTurn {
+    /* border: 1px solid black; */
+    padding: 20px 30px 20px 40px;
+  }
+
+  .thirdStep .rightTurn h5 {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .thirdStep .rightTurn .heading {
+    color: black;
+    font-weight: 800;
+    font-size: 45px;
+    /* border: 1px solid black; */
+    padding: 0px 80px 0px 0px;
+    margin-top: 15px;
+  }
+
+  .thirdStep .rightTurn .paragraph {
+    margin-top: 30px;
+  }
+
+  .thirdStep .quantity {
+    margin-top: 40px;
+    padding: 20px 0px;
+    display: flex;
+    border-top: 1px solid black;
+    gap: 80px;
+  }
+
+  .thirdStep .quantity div h1 {
+    font-weight: 800;
+  }
+
+  .thirdStep .quantity div p {
+    font-weight: 600;
+  }
+
+  .thirdStep .rightTurn button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+  }
+
+  .fourthStep {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 90px 50px 50px 50px;
+    margin-top: 50px;
+  }
+
+  .fourthStep .left {
+    /* border: 1px solid black; */
+    padding-top: 30px;
+  }
+
+  .fourthStep .left h5 {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .fourthStep .left h1 {
+    margin-top: 12px;
+    padding: 0px 20px 0px 0px;
+    font-weight: 800;
+  }
+
+  .fourthStep .left p {
+    margin-top: 30px;
+    line-height: 1.7rem;
+  }
+
+  .fourthStep .left .smile {
+    font-size: 1.1rem;
+    font-weight: bolder;
+  }
+
+  .fourthStep .right {
+    /* border: 1px solid black; */
+    width: 53rem;
+  }
+
+  .fourthStep .right img {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .fifthStep {
+    /* border: 1px solid black; */
+    padding: 90px 50px 50px 50px;
+  }
+
+  .fifthStep .h5 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .fifthStep h1 {
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 800;
+  }
+
+  .fifthStep .first1 {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 10px 0px 0px 0px;
+  }
+
+  .fifthStep .first1 .left {
+    /* border: 1px solid black; */
+    width: 53rem;
+  }
+
+  .fifthStep .first1 .left img {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .fifthStep .first1 .right {
+    /* border: 1px solid black; */
+    padding: 80px 30px 40px 50px;
+  }
+
+  .fifthStep .first1 .right h5 {
+    font-weight: 800;
+    font-size: 0.99rem;
+    text-align: start;
+  }
+
+  .fifthStep .first1 .right div {
+    margin-top: 30px;
+  }
+
+  .fifthStep .first1 .right h4 {
+    font-weight: 800;
+  }
+
+  .fifthStep .first1 .right p {
+    padding: 0px;
+  }
+
+  .fifthStep .second1 {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 40px 0px 0px 0px;
+  }
+
+  .fifthStep .second1 .left {
+    /* border: 1px solid black; */
+    padding: 80px 30px 40px 80px;
+  }
+
+  .fifthStep .second1 .left h5 {
+    font-weight: 800;
+    font-size: 0.99rem;
+    text-align: start;
+  }
+
+  .fifthStep .second1 .left div {
+    margin-top: 30px;
+  }
+
+  .fifthStep .second1 .left h4 {
+    font-weight: 800;
+    font-size: 1.4rem;
+  }
+
+  .fifthStep .second1 .left p {
+    padding: 0px;
+  }
+
+  .fifthStep .second1 .right {
+    /* border: 1px solid black; */
+    width: 53rem;
+  }
+
+  .fifthStep .second1 .right img {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .fifthStep .loveourprocess {
+    padding: 50px;
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+  .fifthStep h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .fifthStep .loveourprocess button {
+    margin-top: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+  }
+
+  /* sixthStep */
+  .sixthStep {
+    /* border: 1px solid black; */
+    display: flex;
+  }
+
+  .sixthStep > .left {
+    padding: 50px;
+    /* border: 1px solid black; */
+  }
+
+  .sixthStep > .left h5 {
+    font-weight: 800;
+    font-size: 0.99rem;
+    text-align: start;
+  }
+
+  .sixthStep > .left h1 {
+    margin-top: 10px;
+    font-weight: 800;
+    padding: 0px;
+  }
+
+  .sixthStep > .left .parah {
+    margin-top: 24px;
+    padding: 0px;
+  }
+
+  .sixthStep .left .divider {
+    /* border: 1px solid black; */
+    /* padding: 30px; */
+    display: flex;
+    gap: 1.3rem;
+  }
+
+  .sixthStep .left .divider div {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  .sixthStep .left .divider div h2 {
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .sixthStep .left .divider div span {
+    /* margin: 5px 0px; */
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    padding: 3px 5px;
+    border-radius: 0.3rem;
+    background-color: rgba(0, 0, 0, 0.132);
+  }
+
+  .sixthStep .left .divider div span h5 {
+    display: inline-block;
+    font-size: 0.7rem;
+  }
+
+  .sixthStep .left .divider div .paraDiv {
+    line-height: 1.4rem;
+    /* border: 1px solid black; */
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .sixthStep .left .divider div .minusDiv {
+    font-size: 0.9rem;
+  }
+
+  .sixthStep .left .divider div .minusDiv::before {
+    content: "– ";
+    color: #a874d2;
+  }
+
+  .sixthStep > .right {
+    /* border: 1px solid black; */
+    width: 54rem;
+  }
+
+  .sixthStep > .right img {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .loveourprocess2 {
+    padding: 4rem;
+    /* border: 1px solid black; */
+  }
+
+  .loveourprocess2 div {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    /* border: 1px solid black; */
+  }
+
+  .loveourprocess2 div h1 {
+    font-weight: 900;
+  }
+
+  .loveourprocess2 div p {
+    font-size: 1.1rem;
+    margin-top: 1.4rem;
+  }
+
+  .loveourprocess2 div button {
+    border: none;
+    background-color: #a874d2;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 1.3rem;
+    font-size: 1.09rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .process {
+    min-height: 100vh;
+    display: flex;
+    padding: 0px;
+  }
+
+  .hero div h1 {
+    color: black;
+    font-weight: 800;
+    line-height: 3.5rem;
+    font-size: 48px;
+    /* border: 1px solid black; */
+    padding: 0px;
+    text-align: center;
+  }
+
+  .hero div p {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .hero div p span {
+    font-weight: 900;
+  }
+
+  .hero div div {
+    gap: 20px;
+    padding-left: 0px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  .hero div img {
+    /* border: 1px solid black; */
+    margin-left: 35px;
+    object-fit: cover;
+    width: 110px;
+    height: 70px;
+    border-radius: 1rem;
+  }
+
+  .firstStep {
+    /* border: 1px solid black; */
+    display: flex;
+  }
+
+  .firstStep .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    padding: 40px;
+    /* border: 1px solid black; */
+  }
+
+  .firstStep .left h5 {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .firstStep .left h1 {
+    margin-top: 14px;
+    font-weight: 900;
+  }
+
+  .firstStep .left p {
+    margin-top: 40px;
+  }
+
+  .firstStep .right {
+    /* border: 1px solid black; */
+    width: 33rem;
+  }
+
+  .firstStep .right img {
+    margin-top: 40px;
+    width: 100%;
+  }
+
+  .someStep {
+    margin-top: 30px;
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 30px;
+  }
+
+  .someStep div {
+    /* border: 1px solid black; */
+    padding: 20px;
+  }
+
+  .someStep div span {
+    border-radius: 20rem;
+    background-color: #d7dde6;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.227);
+  }
+
+  .someStep div h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .someStep div p {
+    line-height: 1.7rem;
+  }
+
+  .secondStep {
+    /* border: 1px solid black; */
+    padding: 40px;
+    margin-top: 30px;
+  }
+
+  .secondStep div {
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+  .secondStep div h5 {
+    /* border: 1px solid black; */
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .secondStep div .heading {
+    color: black;
+    font-weight: 800;
+    font-size: 40px;
+    /* border: 1px solid black; */
+    padding: 0px;
+    margin-top: 15px;
+  }
+
+  .secondStep div .paragraph {
+    margin-top: 20px;
+    padding: 0px;
+    /* border: 1px solid black; */
+  }
+
+  .secondStep .modelDiv {
+    /* border: 1px solid black; */
+    padding: 20px 0px 0px 0px;
+    display: flex;
+  }
+
+  .secondStep .modelDiv .outerDiv {
+    margin-right: 20px;
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv1 {
+    padding-top: 15px;
+    width: 100%;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv1 img {
+    width: 100%;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv2 {
+    text-align: start;
+    padding-left: 20px;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv2 h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv2 p {
+    font-size: 0.9rem;
+  }
+
+  .thirdStep {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 40px;
+  }
+
+  .thirdStep .leftTurn {
+    /* border: 1px solid black; */
+    width: 53rem;
+  }
+
+  .thirdStep .leftTurn img {
+    margin-top: 4rem;
+    width: 100%;
+  }
+
+  .thirdStep .rightTurn {
+    /* border: 1px solid black; */
+    padding: 20px 20px 20px 40px;
+  }
+
+  .thirdStep .rightTurn h5 {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .thirdStep .rightTurn .heading {
+    color: black;
+    font-weight: 800;
+    font-size: 45px;
+    /* border: 1px solid black; */
+    padding: 0px 0px 0px 0px;
+    margin-top: 15px;
+  }
+
+  .thirdStep .rightTurn .paragraph {
+    margin-top: 30px;
+  }
+
+  .thirdStep .quantity {
+    margin-top: 40px;
+    padding: 20px 0px;
+    display: flex;
+    border-top: 1px solid black;
+    gap: 80px;
+  }
+
+  .thirdStep .quantity div h1 {
+    font-weight: 800;
+  }
+
+  .thirdStep .quantity div p {
+    font-weight: 600;
+  }
+
+  .thirdStep .rightTurn button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+  }
+
+  .fourthStep {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 90px 50px 50px 50px;
+    margin-top: 50px;
+  }
+
+  .fourthStep .left {
+    /* border: 1px solid black; */
+    padding-top: 30px;
+  }
+
+  .fourthStep .left h5 {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .fourthStep .left h1 {
+    margin-top: 12px;
+    padding: 0px 20px 0px 0px;
+    font-weight: 800;
+  }
+
+  .fourthStep .left p {
+    margin-top: 30px;
+    line-height: 1.7rem;
+  }
+
+  .fourthStep .left .smile {
+    font-size: 1.1rem;
+    font-weight: bolder;
+  }
+
+  .fourthStep .right {
+    /* border: 1px solid black; */
+    width: 53rem;
+  }
+
+  .fourthStep .right img {
+    margin-top: 5rem;
+    width: 100%;
+  }
+
+  .fifthStep {
+    /* border: 1px solid black; */
+    padding: 90px 50px 50px 50px;
+  }
+
+  .fifthStep .h5 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .fifthStep h1 {
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 800;
+  }
+
+  .fifthStep .first1 {
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 10px 0px 0px 0px;
+  }
+}
+
+@media (max-width: 500px) {
+  .process {
+    min-height: 100vh;
+    display: flex;
+    padding: 0px;
+  }
+
+  .hero div h1 {
+    color: black;
+    font-weight: 800;
+    line-height: 3rem;
+    font-size: 35px;
+    /* border: 1px solid black; */
+    padding: 0px;
+    text-align: center;
+  }
+
+  .hero div p {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .hero div p span {
+    font-weight: 900;
+  }
+
+  .hero div div {
+    gap: 40px;
+    padding-left: 0px;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  .hero div img {
+    /* border: 1px solid black; */
+    margin-left: 0px;
+    object-fit: cover;
+    width: 110px;
+    height: 70px;
+    border-radius: 1rem;
+  }
+
+  .firstStep {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .firstStep .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100%;
+    padding: 40px 40px 0px 40px;
+    /* border: 1px solid black; */
+  }
+
+  .firstStep .left h5 {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .firstStep .left h1 {
+    margin-top: 5px;
+    font-weight: 900;
+  }
+
+  .firstStep .left p {
+    margin-top: 20px;
+  }
+
+  .firstStep .right {
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+  }
+
+  .firstStep .right img {
+    margin-top: 40px;
+    width: 60%;
+  }
+
+  .someStep {
+    margin-top: 60px;
+    display: flex;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .someStep div {
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+  }
+
+  .someStep div span {
+    border-radius: 20rem;
+    background-color: #d7dde6;
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.227);
+  }
+
+  .someStep div h2 {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .someStep div p {
+    line-height: 1.7rem;
+  }
+
+  .secondStep {
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .secondStep div {
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+  .secondStep div h5 {
+    /* border: 1px solid black; */
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .secondStep div .heading {
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    /* border: 1px solid black; */
+    padding: 0px;
+    margin-top: 15px;
+  }
+
+  .secondStep div .paragraph {
+    margin-top: 20px;
+    padding: 0px;
+    font-size: 0.9rem;
+    /* border: 1px solid black; */
+  }
+
+  .secondStep .modelDiv {
+    /* border: 1px solid black; */
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondStep .modelDiv .outerDiv {
+    margin-right: 20px;
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 10px;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv1 {
+    padding-top: 15px;
+    width: 100%;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv1 img {
+    width: 100%;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv2 {
+    text-align: start;
+    padding-left: 20px;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv2 h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+
+  .secondStep .modelDiv .outerDiv .innerDiv2 p {
+    font-size: 0.8rem;
+  }
+
+  .thirdStep {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0px;
+    margin-top: 50px;
+  }
+
+  .thirdStep .leftTurn {
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+  }
+
+  .thirdStep .leftTurn img {
+    margin-top: 3rem;
+    width: 70%;
+  }
+
+  .thirdStep .rightTurn {
+    /* border: 1px solid black; */
+    padding: 20px 20px 20px 40px;
+  }
+
+  .thirdStep .rightTurn h5 {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .thirdStep .rightTurn .heading {
+    color: black;
+    font-weight: 800;
+    font-size: 30px;
+    /* border: 1px solid black; */
+    padding: 0px 0px 0px 0px;
+    margin-top: 15px;
+  }
+
+  .thirdStep .rightTurn .paragraph {
+    margin-top: 20px;
+  }
+
+  .thirdStep .quantity {
+    margin-top: 40px;
+    padding: 20px 0px;
+    display: flex;
+    border-top: 1px solid black;
+    gap: 80px;
+  }
+
+  .thirdStep .quantity div h1 {
+    font-weight: 800;
+  }
+
+  .thirdStep .quantity div p {
+    font-weight: 600;
+  }
+
+  .thirdStep .rightTurn button {
+    border: none;
+    background-color: black;
+    color: white;
+    margin-left: 1.2rem;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 80%;
+  }
+
+  .fourthStep {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 90px 30px 50px 30px;
+    margin-top: 50px;
+  }
+
+  .fourthStep .left {
+    /* border: 1px solid black; */
+    padding-top: 30px;
+  }
+
+  .fourthStep .left h5 {
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .fourthStep .left h1 {
+    margin-top: 12px;
+    padding: 0px 20px 0px 0px;
+    font-weight: 800;
+  }
+
+  .fourthStep .left p {
+    margin-top: 30px;
+    line-height: 1.7rem;
+  }
+
+  .fourthStep .left .smile {
+    font-size: 1.1rem;
+    font-weight: bolder;
+  }
+
+  .fourthStep .right {
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+  }
+
+  .fourthStep .right img {
+    margin-top: 5rem;
+    width: 85%;
+  }
+
+  .fifthStep {
+    /* border: 1px solid black; */
+    padding: 90px 10px 50px 10px;
+  }
+
+  .fifthStep .h5 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+  }
+
+  .fifthStep h1 {
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 800;
+  }
+
+  .fifthStep .first1 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px 0px 0px 0px;
+  }
+  /*  */
+  .fifthStep .first1 .left {
+    /* border: 1px solid black; */
+    text-align: center;
+    width: 100%;
+  }
+
+  .fifthStep .first1 .left img {
+    margin-top: 0rem;
+    width: 80%;
+  }
+
+  .fifthStep .first1 .right {
+    /* border: 1px solid black; */
+    padding: 50px 0px 40px 20px;
+  }
+
+  .fifthStep .first1 .right h5 {
+    font-weight: 800;
+    font-size: 0.99rem;
+    text-align: start;
+  }
+
+  .fifthStep .first1 .right div {
+    margin-top: 30px;
+  }
+
+  .fifthStep .first1 .right h4 {
+    font-weight: 800;
+  }
+
+  .fifthStep .first1 .right p {
+    padding: 0px;
+  }
+
+  .fifthStep .second1 {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0px 0px 0px;
+  }
+
+  .fifthStep .second1 .left {
+    /* border: 1px solid black; */
+    padding: 80px 20px 40px 20px;
+  }
+
+  .fifthStep .second1 .left h5 {
+    font-weight: 800;
+    font-size: 0.99rem;
+    text-align: start;
+  }
+
+  .fifthStep .second1 .left div {
+    margin-top: 30px;
+  }
+
+  .fifthStep .second1 .left h4 {
+    font-weight: 800;
+    font-size: 1.4rem;
+  }
+
+  .fifthStep .second1 .left p {
+    padding: 0px;
+  }
+
+  .fifthStep .second1 .right {
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+  }
+
+  .fifthStep .second1 .right img {
+    margin-top: 0rem;
+    width: 80%;
+  }
+
+  .fifthStep .loveourprocess {
+    padding: 50px 30px 30px 30px;
+    /* border: 1px solid black; */
+    text-align: center;
+  }
+
+  .fifthStep h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .fifthStep .loveourprocess button {
+    margin-top: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+  }
+
+  /* sixthStep */
+  .sixthStep {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sixthStep > .left {
+    padding: 50px 20px 30px 20px;
+    /* border: 1px solid black; */
+  }
+
+  .sixthStep > .left h5 {
+    font-weight: 800;
+    font-size: 0.99rem;
+    text-align: start;
+  }
+
+  .sixthStep > .left h1 {
+    margin-top: 10px;
+    font-weight: 800;
+    padding: 0px;
+  }
+
+  .sixthStep > .left .parah {
+    margin-top: 24px;
+    padding: 0px;
+  }
+
+  .sixthStep .left .divider {
+    /* border: 1px solid black; */
+    /* padding: 30px; */
+    display: flex;
+    gap: 1.3rem;
+  }
+
+  .sixthStep .left .divider div {
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+
+  .sixthStep .left .divider div h2 {
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+
+  .sixthStep .left .divider div span {
+    /* margin: 5px 0px; */
+    border: 1px solid rgba(0, 0, 0, 0.174);
+    padding: 3px 5px;
+    border-radius: 0.3rem;
+    background-color: rgba(0, 0, 0, 0.132);
+  }
+
+  .sixthStep .left .divider div span h5 {
+    display: inline-block;
+    font-size: 0.7rem;
+  }
+
+  .sixthStep .left .divider div .paraDiv {
+    line-height: 1.4rem;
+    /* border: 1px solid black; */
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+
+  .sixthStep .left .divider div .minusDiv {
+    font-size: 0.9rem;
+  }
+
+  .sixthStep .left .divider div .minusDiv::before {
+    content: "– ";
+    color: #a874d2;
+  }
+
+  .sixthStep > .right {
+    /* border: 1px solid black; */
+    width: 100%;
+    text-align: center;
+  }
+
+  .sixthStep > .right img {
+    margin-top: 0rem;
+    width: 80%;
+  }
+
+  .loveourprocess2 {
+    padding: 150px 20px 30px 20px;
+    /* border: 1px solid black; */
+  }
+
+  .loveourprocess2 div {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    /* border: 1px solid black; */
+  }
+
+  .loveourprocess2 div h1 {
+    font-weight: 900;
+  }
+
+  .loveourprocess2 div p {
+    font-size: 1.1rem;
+    margin-top: 1.4rem;
+  }
+
+  .loveourprocess2 div button {
+    border: none;
+    background-color: #a874d2;
+    color: white;
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-top: 1.3rem;
+    font-size: 1.09rem;
+  }
+}

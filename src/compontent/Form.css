@@ -1,0 +1,134 @@
+.mainForm {
+  backdrop-filter: blur(30px);
+  position: fixed;
+  top: 80px;
+  height: 100vh;
+  border-radius: 1rem;
+  left: 450px;
+  z-index: 1000;
+  width: 35%;
+}
+
+.form12 {
+  box-shadow: 0 15px 35px rgba(35, 45, 65, 0.2);
+  padding: 40px;
+  height: 100%;
+  width: auto;
+}
+
+.form12 h1 {
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: 900;
+}
+
+.form12 button {
+  margin-top: 2rem;
+  padding: 15px 15px;
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  cursor: pointer;
+  right: 20px;
+}
+
+@media (max-width: 1080px) {
+  .mainForm {
+    backdrop-filter: blur(30px);
+    position: fixed;
+    top: 75px;
+    height: 100vh;
+    border-radius: 1rem;
+    left: 25%;
+    z-index: 1000;
+    width: 50%;
+  }
+
+  .form12 {
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(35, 45, 65, 0.2);
+    height: auto;
+    padding: 30px;
+  }
+
+  .form12 h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  .close {
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 800px) {
+  .mainForm {
+    backdrop-filter: blur(30px);
+    position: fixed;
+    top: 75px;
+    height: 100vh;
+    border-radius: 1rem;
+    left: 10%;
+    z-index: 1000;
+    width: 80%;
+  }
+
+  .form12 {
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(35, 45, 65, 0.2);
+    height: auto;
+    padding: 40px;
+  }
+
+  .form12 h1 {
+    font-size: 1.7rem;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  .close {
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 508px) {
+  .mainForm {
+    backdrop-filter: blur(30px);
+    position: fixed;
+    top: 95px;
+    height: 100vh;
+    border-radius: 1rem;
+    left: 5%;
+    z-index: 1000;
+    width: 90%;
+  }
+
+  .form12 {
+    border-radius: 1rem;
+    box-shadow: 0 5px 15px rgba(35, 45, 65, 0.2);
+    height: auto;
+    padding: 40px;
+  }
+
+  .form12 h1 {
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  .close {
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 10px;
+  }
+}

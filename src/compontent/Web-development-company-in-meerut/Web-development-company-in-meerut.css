@@ -1,0 +1,294 @@
+.webcompany {
+  min-height: 100vh;
+  padding: 30px 120px 20px 115px;
+}
+
+.topDiv {
+  border-radius: 1rem;
+}
+
+.topDiv h1 {
+  font-size: 3rem;
+  color: #0f172a;
+  margin-bottom: 15px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.topDiv h2 {
+  font-size: 1.8rem;
+  color: #1e293b;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.topDiv p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #475569;
+  margin-bottom: 15px;
+}
+
+.topDiv button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 20px 0;
+  transition: all 0.3s ease;
+}
+
+.topDiv button:hover {
+  background: #1d4ed8;
+  transform: translateY(-2px);
+}
+
+.topDiv hr {
+  border: none;
+  height: 1px;
+  background: #c4c7cb;
+  margin: 40px 0;
+}
+
+.topDiv ul {
+  padding-left: 25px;
+}
+
+.topDiv ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #334155;
+}
+
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.topDiv .techStack span {
+  background: #eff6ff;
+  color: #1d4ed8;
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-size: 0.95rem;
+  border: 1px solid #bfdbfe;
+  transition: 0.3s;
+}
+
+.techStack span:hover {
+  background: #2563eb;
+  color: white;
+  transform: translateY(-2px);
+}
+
+.topDiv h4 {
+  margin: 4rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+  .webcompany {
+    min-height: 100vh;
+    padding: 30px 30px 20px 45px;
+  }
+
+  .topDiv {
+    border-radius: 1rem;
+    /* border: 1px solid black; */
+  }
+
+  .topDiv h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #0f172a;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .topDiv h2 {
+    font-size: 1.8rem;
+    color: #1e293b;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .topDiv p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #475569;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .topDiv button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px 130px;
+    width: 50%;
+    transition: all 0.3s ease;
+  }
+
+  .topDiv button:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+  }
+
+  .topDiv hr {
+    border: none;
+    height: 1px;
+    background: #757779;
+    margin: 40px 0;
+  }
+
+  .topDiv .ul1 {
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    padding-left: 30%;
+  }
+
+  .topDiv .ul2 {
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    padding-left: 40%;
+  }
+
+  .topDiv ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #334155;
+  }
+
+  .techStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .topDiv .techStack span {
+    background: #eff6ff;
+    color: #1d4ed8;
+    padding: 10px 16px;
+    border-radius: 30px;
+    font-size: 0.95rem;
+    border: 1px solid #bfdbfe;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 550px) {
+  .webcompany {
+    min-height: 100vh;
+    padding: 40px 20px;
+  }
+
+  .topDiv {
+    border-radius: 1rem;
+    /* border: 1px solid black; */
+  }
+
+  .topDiv h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #0f172a;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .topDiv h2 {
+    font-size: 1.8rem;
+    color: #1e293b;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .topDiv p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #475569;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .topDiv button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    width: 95%;
+    transition: all 0.3s ease;
+  }
+
+  .topDiv button:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px);
+  }
+
+  .topDiv hr {
+    border: none;
+    height: 1px;
+    background: #757779;
+    margin: 40px 0;
+  }
+
+  .topDiv .ul1 {
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    padding-left: 10%;
+  }
+
+  .topDiv .ul2 {
+    margin-top: 30px;
+    /* border: 1px solid black; */
+    padding-left: 10%;
+  }
+
+  .topDiv ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #334155;
+  }
+
+  .techStack {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+  }
+
+  .topDiv .techStack span {
+    background: #eff6ff;
+    color: #1d4ed8;
+    padding: 10px 16px;
+    border-radius: 30px;
+    font-size: 0.95rem;
+    border: 1px solid #bfdbfe;
+    transition: 0.3s;
+  }
+
+  .topDiv h4 {
+    margin: 3rem 1rem;
+    font-weight: 900;
+    text-align: center;
+  }
+}

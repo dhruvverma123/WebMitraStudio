@@ -1,0 +1,515 @@
+.contact {
+  min-height: 100vh;
+  display: flex;
+  padding: 30px 100px 20px 115px;
+}
+
+.heroSection2 {
+  margin-top: 20px;
+  display: flex;
+  gap: 100px;
+  padding: 40px;
+  /* border: 1px solid black; */
+}
+
+.address {
+  /* border: 1px solid black; */
+  width: 40%;
+  padding: 20px;
+}
+
+.address h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form {
+  /* flex-grow: 2; */
+  /* box-shadow: 0 0 0 0.2px black; */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.form button {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form p {
+  text-align: center;
+}
+
+.phone {
+  background-color: rgba(0, 0, 0, 0.864);
+  padding: 40px;
+  /* border: 1px solid black; */
+  border-radius: 14px;
+}
+
+.phone h2 {
+  line-height: 2.3rem;
+  color: #fff;
+}
+
+.phone p {
+  margin-top: 10px;
+  line-height: 1.8rem;
+  color: #999fae;
+}
+
+.phone #no a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fab8c4;
+  cursor: pointer;
+  transition: color 0.2s linear;
+}
+
+.phone #no:hover a {
+  color: #fff;
+}
+
+.email {
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.864);
+  padding: 40px;
+  /* border: 1px solid black; */
+  border-radius: 14px;
+}
+
+.email h2 {
+  line-height: 2.3rem;
+  color: #fff;
+}
+
+.email p {
+  margin-top: 10px;
+  line-height: 1.8rem;
+  color: #999fae;
+}
+
+.email #emailAdd a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #fab8c4;
+  cursor: pointer;
+  transition: color 0.2s linear;
+}
+
+.email #emailAdd:hover a {
+  color: #fff;
+}
+
+.office {
+  margin-top: 20px;
+  padding: 40px;
+  /* border: 1px solid black; */
+}
+
+.office div {
+  text-align: center;
+  padding: 20px;
+  /* border: 1px solid black; */
+  background: #000000e1;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.office p {
+  color: #999fae;
+}
+
+.office h2 {
+  color: #fab8c4;
+}
+
+@media (max-width: 1080px) {
+  .contact {
+    min-height: 100vh;
+    display: flex;
+    padding: 10px 30px 10px 30px;
+  }
+
+  .heroSection2 {
+    margin-top: 20px;
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    /* border: 1px solid black; */
+  }
+
+  .address {
+    /* border: 1px solid black; */
+    width: 40%;
+    padding: 20px;
+  }
+
+  .address h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .form {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    border-radius: 15px;
+  }
+
+  .form button {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .form p {
+    text-align: center;
+  }
+
+  .phone {
+    background-color: rgba(0, 0, 0, 0.864);
+    padding: 30px;
+    /* border: 1px solid black; */
+    border-radius: 14px;
+  }
+
+  .phone h2 {
+    line-height: 2.1rem;
+    color: #fff;
+  }
+
+  .phone p {
+    margin-top: 10px;
+    line-height: 1.7rem;
+    color: #999fae;
+  }
+
+  .phone #no a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fab8c4;
+    cursor: pointer;
+    transition: color 0.2s linear;
+  }
+
+  .phone #no:hover a {
+    color: #fff;
+  }
+
+  .email {
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.864);
+    padding: 30px;
+    /* border: 1px solid black; */
+    border-radius: 14px;
+  }
+
+  .email h2 {
+    line-height: 2.1rem;
+    color: #fff;
+  }
+
+  .email p {
+    margin-top: 10px;
+    line-height: 1.7rem;
+    color: #999fae;
+  }
+
+  .email #emailAdd a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fab8c4;
+    cursor: pointer;
+    transition: color 0.2s linear;
+  }
+
+  .email #emailAdd:hover a {
+    color: #fff;
+  }
+
+  .office {
+    margin-top: 20px;
+    padding: 40px;
+    /* border: 1px solid black; */
+  }
+
+  .office div {
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid black; */
+    background: #000000e1;
+    color: #fff;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 860px) {
+  .contact {
+    min-height: 100vh;
+    display: flex;
+    padding: 0px;
+  }
+
+  .heroSection2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    /* border: 1px solid black; */
+  }
+
+  .address {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 20px;
+  }
+
+  .address .addressChild {
+    display: flex;
+    gap: 20px;
+  }
+
+  .address h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .form {
+    margin: auto;
+    width: 70%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    border-radius: 15px;
+  }
+
+  .form button {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .form p {
+    text-align: center;
+  }
+
+  .phone {
+    background-color: rgba(0, 0, 0, 0.864);
+    padding: 30px;
+    /* border: 1px solid black; */
+    border-radius: 14px;
+  }
+
+  .phone h2 {
+    line-height: 2.1rem;
+    color: #fff;
+  }
+
+  .phone p {
+    margin-top: 10px;
+    line-height: 1.7rem;
+    color: #999fae;
+  }
+
+  .phone #no a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fab8c4;
+    cursor: pointer;
+    transition: color 0.2s linear;
+  }
+
+  .phone #no:hover a {
+    color: #fff;
+  }
+
+  .email {
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.864);
+    padding: 30px;
+    /* border: 1px solid black; */
+    border-radius: 14px;
+  }
+
+  .email h2 {
+    line-height: 2.1rem;
+    color: #fff;
+  }
+
+  .email p {
+    margin-top: 10px;
+    line-height: 1.7rem;
+    color: #999fae;
+  }
+
+  .email #emailAdd a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fab8c4;
+    cursor: pointer;
+    transition: color 0.2s linear;
+  }
+
+  .email #emailAdd:hover a {
+    color: #fff;
+  }
+
+  .office {
+    margin-top: 20px;
+    padding: 40px;
+    /* border: 1px solid black; */
+  }
+
+  .office div {
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid black; */
+    background: #000000e1;
+    color: #fff;
+    border-radius: 10px;
+  }
+}
+
+@media (max-width: 630px) {
+  .contact {
+    min-height: 100vh;
+    display: flex;
+    padding: 0px;
+  }
+
+  .heroSection2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 20px;
+    /* border: 1px solid black; */
+  }
+
+  .address {
+    /* border: 1px solid black; */
+    width: 100%;
+    padding: 0px;
+  }
+
+  .address .addressChild {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .address h1 {
+    font-size: 2.1rem;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .form {
+    margin: auto;
+    width: 100%;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+  }
+
+  .form button {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .form h1 {
+    text-align: center;
+    font-weight: 900;
+  }
+
+  .form p {
+    text-align: center;
+  }
+
+  .phone {
+    background-color: rgba(0, 0, 0, 0.864);
+    padding: 30px;
+    /* border: 1px solid black; */
+    border-radius: 14px;
+  }
+
+  .phone h2 {
+    line-height: 2.1rem;
+    color: #fff;
+  }
+
+  .phone p {
+    margin-top: 10px;
+    line-height: 1.7rem;
+    color: #999fae;
+  }
+
+  .phone #no a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #fab8c4;
+    cursor: pointer;
+    transition: color 0.2s linear;
+  }
+
+  .phone #no:hover a {
+    color: #fff;
+  }
+
+  .email {
+    margin-top: 0px;
+    background-color: rgba(0, 0, 0, 0.864);
+    padding: 30px;
+    /* border: 1px solid black; */
+    border-radius: 14px;
+  }
+
+  .email h2 {
+    line-height: 2.1rem;
+    color: #fff;
+  }
+
+  .email p {
+    margin-top: 10px;
+    line-height: 1.7rem;
+    color: #999fae;
+  }
+
+  .email #emailAdd a {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #fab8c4;
+    cursor: pointer;
+    transition: color 0.2s linear;
+  }
+
+  .email #emailAdd:hover a {
+    color: #fff;
+  }
+
+  .office {
+    margin-top: 10px;
+    padding: 20px;
+    /* border: 1px solid black; */
+  }
+
+  .office div {
+    text-align: center;
+    padding: 20px;
+    /* border: 1px solid black; */
+    background: #000000e1;
+    color: #fff;
+    border-radius: 10px;
+  }
+
+  .office div p {
+    font-size: 0.9rem;
+  }
+
+  .office div h2 {
+    font-size: 1.3rem;
+  }
+}

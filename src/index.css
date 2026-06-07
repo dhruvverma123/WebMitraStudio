@@ -1,0 +1,9 @@
+@font-face {
+  font-family: poppins;
+  src: url("../Poppins-Regular.ttf");
+}
+
+body {
+  background: #fafafaa0;
+  overflow-x: hidden;
+}
