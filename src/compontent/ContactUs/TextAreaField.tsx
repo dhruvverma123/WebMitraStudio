@@ -1,7 +1,7 @@
 import { useField, ErrorMessage } from "formik";
 import "./TextAreaField.css";
 
-function TextAreaField({ label, ...props }) {
+function TextAreaField({ label, ...props }: any) {
   let [field, meta] = useField(props);
   return (
     <>
